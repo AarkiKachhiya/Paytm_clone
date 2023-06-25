@@ -1,0 +1,98 @@
+/* .secondary-btn{
+    content:"\f105";
+    position: absolute;
+    font-family: "FontAwesome";
+    transition: content 2s;
+} */
+
+.section-5{
+    background-color: var(--grey-light);
+    padding-bottom: 4.8rem;
+}
+
+.section-5-postpaid{
+    width: var(--width-2);
+    margin: auto;
+    border-radius: 1rem;
+    background-color: var(--white);
+    padding: 8rem 5rem 8rem 11.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-5-postpaid-left{
+    width: 45%;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.section-5-postpaid-left-header{
+    display: flex;
+    align-items: center;
+}
+
+.section-5-postpaid-left-header img{
+    height: 7.7rem;
+    padding-right: 1.2rem;
+}
+
+.section-5-postpaid-left-body{
+    margin-top: 4.8rem;
+}
+
+.section-5-postpaid-left-body h2{
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 4.6rem;
+    width: 39rem;
+}
+
+.section-5-postpaid-left-body p{
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height:2.6rem ;
+    padding: 2.4rem 0 3rem;
+}
+
+.section-5-postpaid-right{
+    width: 433px;
+}
+
+.section-5-postpaid-right img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.secondary-btn{
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    background-color:var(--blue-dark) ;
+    font-size: 1.7rem;
+    font-weight: 500;
+    width: fit-content;
+    padding: 1.6rem 2.4rem;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition:background-color 0.2s ease ;
+}
+
+.secondary-btn:hover{
+    background-color: var(--light-blue);
+    
+}
+
+.secondary-btn img{
+    content: "\f105";
+    margin-left: 1.1rem;
+    height: 1.8rem;
+    font-family: "FontAwesome";
+}
+
+/* .secondary-btn:hover .secondary-btn::after{
+    background-image: url("images/arrow-right-solid.svg");
+    position: absolute;
+    font-family: "FontAwesome";
+    transition: content 2s;
+} */
